@@ -10,7 +10,7 @@ const navItems = [
 
 export function Header (){
     return (
-        <header className="bg-gray-900 text-white p-4 flex justify-center items-center  w-screen">
+        <header className="bg-gray-900 text-white p-4 flex justify-center items-center w-screen">
         <h1 className="text-2x1 font-bold px-4 w-1/2 ">
             Meu Portifólio
         </h1>

@@ -4,18 +4,19 @@ import {Link} from "react-router-dom"
 const navItems = [
     {label: "Home", path: "/home"},
     {label: "Sobre", path: "/about"},
-    {label: "Projetos", path: "/projects"}
-   ]
+    {label: "Projetos", path: "/projects"},
+   ];
 
 
-export function Header (){
+export function Header () {
     return (
         <header className="bg-gray-900 text-white p-4 flex justify-center items-center w-screen">
-        <h1 className="text-2x1 font-bold px-4 w-1/2 ">
-            Meu Portifólio
-        </h1>
+        <h1 className="text-2x1 font-bold px-4 w-1/2 ">Meu Portifólio</h1>
+        
         <div>
-        <p className="text-2x1 justify-center p-4 m-1/2"> Pensando em ideias para arrumar esse cabeçario </p>
+        <p className="text-2x1 justify-center p-4 m-1/2">
+         Pensando em ideias para arrumar esse cabeçario 
+         </p>
         <div className="flex justify-center gap-4"></div>
         </div>
         <nav className="flex space-x-4">
@@ -24,7 +25,7 @@ export function Header (){
                         key={index}
                         whileHover={{ scale: 1.1}}
                         whileTap={{ scale: 0.95}}
-                        transition={{ type: 'spring', stiffness: 300}}>
+                        transition={{ type: "spring", stiffness: 300}}>
                             <Link
                                 key={item.path}
                                 to={item.path}

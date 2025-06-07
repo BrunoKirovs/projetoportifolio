@@ -6,15 +6,15 @@ import { About } from "./pages/About.tsx";
 import { Projects } from "./pages/Projects.tsx";
 
 function App() {
-   return (
+  return (
     <div className="flex flex-col">
       <Header />
       <div className="flex-grow px-4 pt-24">
-      <Routes>
-        <Route path="/home" element={<Home/>} />
-        <Route path="/about" element={<About/>} />
-        <Route path="/projects" element={<Projects/>} />
-      </Routes>
+        <Routes>
+          <Route path="/home" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/projects" element={<Projects />} />
+        </Routes>
       </div>
       <Footer />
     </div>

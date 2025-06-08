@@ -20,13 +20,13 @@ export function ProjectCard({ project }: ProjectCardProps) {
         alt={project.title}
         className="rounded-md mb4 object-cover h-48 w-full"
       />
-      <h2 className="text-2x1 font-bold text-gray-800 mb-2">{project.title}</h2>
+      <h2 className="text-2xl font-bold text-gray-800 mb-2">{project.title}</h2>
       <p className="text-gray-600 mb-4">{project.description}</p>
       <a
         href={project.link}
         target="_blank"
         rel="noopener noreferrer"
-        className="mt-auto inline-block text-indigo-600 font-semibold hover:underline"
+        className="mt-auto inline-block text-indigo-600 font-semibold hover:underline justify-center gap-4 mb-8"
       >
         Ver Projeto
       </a>

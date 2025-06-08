@@ -11,12 +11,31 @@ export function Home() {
           desenvolvedor em evolução. Veja o que estou estudando no momento:
         </p>
 
-        <img
-          src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"
-          alt="React"
-        />
+        <p className="flex flex-wrap justify-center gap-4 mb-8">
+          <img
+            src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"
+            alt="React"
+          />
 
-        <p>Ferramentas que já possuo conhecimento:</p>
+          <img
+            src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white"
+            alt="TypeScript"
+          />
+
+          <img
+            src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white"
+            alt="Java"
+          />
+
+          <img
+            src="https://img.shields.io/badge/Cypress-17202C?style=for-the-badge&logo=cypress&logoColor=white"
+            alt="Cypress"
+          />
+        </p>
+
+        <p className="text-lg text-gray-600 mb-8">
+          Ferramentas que já possuo conhecimento:
+        </p>
 
         {/* Seção de ícones */}
         <div className="flex flex-wrap justify-center gap-4 mb-8">
@@ -39,6 +58,35 @@ export function Home() {
           <img
             src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"
             alt="GitHub"
+          />
+          <img
+            src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"
+            alt="Python"
+          />
+
+          <img
+            src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white"
+            alt="Java"
+          />
+
+          <img
+            src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white"
+            alt="C#"
+          />
+
+          <img
+            src="https://img.shields.io/badge/Cypress-17202C?style=for-the-badge&logo=cypress&logoColor=white"
+            alt="Cypress"
+          />
+
+          <img
+            src="https://img.shields.io/badge/SQL-003B57?style=for-the-badge&logo=sqlite&logoColor=white"
+            alt="SQL"
+          />
+
+          <img
+            src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"
+            alt="JavaScript"
           />
         </div>
 

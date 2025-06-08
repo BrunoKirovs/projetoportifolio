@@ -26,3 +26,21 @@ h1, h2, h3, h4, h5, h6 {
 .container {
     @apply mx-auto px-6 py-12;
 }
+
+/* Dark Mode */
+
+.dark .bg-dark-bg {
+  background-color: theme('colors.dark-bg');
+}
+
+.dark .text-dark-text {
+  color: theme('colors.dark-text');
+}
+
+.bg-light-bg {
+  background-color: theme('colors.light-bg');
+}
+
+.text-light-text {
+  color: theme('colors.light-text');
+}

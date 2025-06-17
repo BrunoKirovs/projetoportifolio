@@ -4,11 +4,8 @@ import { Footer } from "./components/Footer.tsx";
 import { Route, Routes } from "react-router-dom";
 import { About } from "./pages/About.tsx";
 import { Projects } from "./pages/Projects.tsx";
-import { ThemeToggle } from "./components/ThemeToggle.ts";
 
-//<div className="bg-light-bg text-light-text dark:bg-dark-bg dark:text-dark-text min-h-screen flex items-center justify-center gap-4">
-      //  <ThemeToggle />
-      //</div>*/
+
 
 function App() {
   return (

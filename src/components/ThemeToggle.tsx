@@ -24,8 +24,8 @@ export function ThemeToggle()  {
 
   return (
     <button className="p-2 bg-gray-200 dark:bg-gray-700 rounded" onClick={toggleTheme}>
-      {theme === 'light' && '🌞 Light Mode'}
-      {theme === 'dark' && '🌙 Dark Mode'}
+      {theme === 'light' && '🌞'}
+      {theme === 'dark' && '🌙'}
     </button>
   );
 };

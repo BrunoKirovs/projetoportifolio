@@ -8,7 +8,7 @@ interface ProjectCardProps {
 export function ProjectCard({ project }: ProjectCardProps) {
   return (
     <motion.div
-      className="bg-white rbg-white rounded-2xl shadow-lg overflow-hidden p-6 hover:shadow-2xl transition-shadow flex flex-colounded-x1 shadow-lg overflow-hidden p-4 cursor-pointer"
+      className="bg-white rbg-white rounded-2xl shadow-lg overflow-hidden p-6 hover:shadow-2xl transition-shadow flex shadow-lg overflow-hidden p-4 cursor-pointer"
       whileHover={{ scale: 1.05, rotate: 1 }}
       whileTap={{ scale: 0.98 }}
       initial={{ opacity: 0, y: 50 }}

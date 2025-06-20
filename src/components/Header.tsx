@@ -11,11 +11,11 @@ const navItems = [
 export function Header() {
   return (
     <header className="bg-gray-900 text-white p-4 flex justify-center items-center w-screen">
-      <h1 className="text-2x1 font-bold px-4 w-full">
+      <h1 className="text-2x1 font-bold px-4 w-screen">
           <ThemeToggle />
       </h1>
       <div>
-        <p className="text-2x1 justify-center p-4 m-1/2">
+        <p className="text-2x1 flex justify-center p-4 m-auto items-center">
           Santuario
         </p>
         <div className="flex justify-center gap-4"></div>

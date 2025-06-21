@@ -4,7 +4,7 @@ export function Footer() {
   const year = new Date().getFullYear();
 
   return (
-    <footer role="contentinfo" className="bg-gray-900 text-white py-6 px-4 border-t border-gray-700 text-center">
+    <footer role="contentinfo" className="bg-gray-900 text-white py-6 px-4 border-t border-gray-700 text-center ">
       <p className="text-sm">&copy; {year} Desenvolvido por Bruno Juan - Engennier Developer</p>
       <div className="flex justify-center gap-4 mt-2">
         <a href="https://github.com/BrunoKirovs/" target="_blank" aria-label="GitHub">

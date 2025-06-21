@@ -1,97 +1,52 @@
+import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
+
+
 export function Home() {
+
   return (
-    <section className=" flex items-center justify-center">
-      <div className="max-w-2xl mx-auto px-6 text-center">
-        <h1 className="text-4xl md:text-5xl font-bold mb-6 text-gray-900">
-          Bem-vindo ao meu Portfólio
-        </h1>
+    <section className="w-full bg-white dark:bg-gray-900 px-4 py-20 md:px-8">
+      {/* Hero */}
+      <div className="max-w-4xl mx-auto flex flex-col items-center text-center gap-6">
+        <motion.h1
+          className="text-5xl md:text-6xl font-extrabold text-gray-900 dark:text-white"
+          initial={{ opacity: 0, y: -20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8 }}
+        >
+          Olá, eu sou <span className="text-blue-600">Bruno Juan</span>
+        </motion.h1>
+        <motion.p
+          className="text-lg md:text-xl text-gray-700 dark:text-gray-300"
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8, delay: 0.3 }}
+        >
+          Desenvolvedor apaixonado para obter mais conhecimento em interfaces modernas.
+        </motion.p>
 
-        <p className="text-lg text-gray-600 mb-8">
-          Vejam meus projetos e conheçam um pouco sobre mim. Sou um jovem
-          desenvolvedor em evolução. Veja o que estou estudando no momento:
-        </p>
-
-        <p className="flex flex-wrap justify-center gap-4 mb-8">
-          <img
-            src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"
-            alt="React"
-          />
-
-          <img
-            src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white"
-            alt="TypeScript"
-          />
-
-          <img
-            src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white"
-            alt="Java"
-          />
-
-          <img
-            src="https://img.shields.io/badge/Cypress-17202C?style=for-the-badge&logo=cypress&logoColor=white"
-            alt="Cypress"
-          />
-        </p>
-
-        <p className="text-lg text-gray-600 mb-8">
-          Ferramentas que já possuo conhecimento:
-        </p>
-
-        {/* Seção de ícones */}
-        <div className="flex flex-wrap justify-center gap-4 mb-8">
-          <img
-            src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"
-            alt="React"
-          />
-          <img
-            src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white"
-            alt="TypeScript"
-          />
-          <img
-            src="https://img.shields.io/badge/TailwindCSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white"
-            alt="TailwindCSS"
-          />
-          <img
-            src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"
-            alt="Git"
-          />
-          <img
-            src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"
-            alt="GitHub"
-          />
-          <img
-            src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"
-            alt="Python"
-          />
-
-          <img
-            src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white"
-            alt="Java"
-          />
-
-          <img
-            src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white"
-            alt="C#"
-          />
-
-          <img
-            src="https://img.shields.io/badge/Cypress-17202C?style=for-the-badge&logo=cypress&logoColor=white"
-            alt="Cypress"
-          />
-
-          <img
-            src="https://img.shields.io/badge/SQL-003B57?style=for-the-badge&logo=sqlite&logoColor=white"
-            alt="SQL"
-          />
-
-          <img
-            src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"
-            alt="JavaScript"
-          />
-        </div>
-
-        <div className="flex justify-center gap-4 flex-wrap"></div>
+        {/* CTAs */}
+        <motion.div
+          className="flex gap-4 mt-6"
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ duration: 0.8, delay: 0.6 }}
+        >
+          <Link
+            to="/projects"
+            className="px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition"
+          >
+            Ver Projetos
+          </Link>
+          <a
+            href="https://www.linkedin.com/in/brunojuan/"
+            className="px-6 py-3 border-2 border-blue-600 text-blue-600 rounded-lg hover:bg-blue-600 hover:text-white transition"
+          >
+            Entrar em Contato
+          </a>
+        </motion.div>
       </div>
+ 
     </section>
   );
 }

@@ -10,16 +10,18 @@ const navItems = [
 
 export function Header() {
   return (
-    <header className="bg-gray-900 text-white p-4 flex justify-center items-center w-screen">
+    <header className="dark:bg-gray-900 text-white p-4 flex justify-center items-center w-screen">
       <h1 className="text-2x1 font-bold px-4 w-screen">
           <ThemeToggle />
       </h1>
       <div>
-        <p className="text-2x1 flex justify-center p-4 m-auto items-center">
+        <p className="text-2x1 dark:text-blue-400 text-blue-600 flex justify-center p-4 m-auto items-center tracking-wide">
           Santuario
         </p>
         <div className="flex justify-center gap-4"></div>
       </div>
+
+      {/* Botões */}
       <nav className="flex space-x-4">
         {navItems.map((item, index) => (
           <motion.div

@@ -22,8 +22,8 @@ export function About() {
         transition={{ duration: 0.8, delay: 0.2 }}
         className="max-w-2xl"
       >
-        <h1 className="text-4x1 font-bold mb-4 text-gray-900">Sobre Mim</h1>
-        <p className="text-gray-700 text-lg leading-relaxed">
+        <h1 className="text-4x1 font-bold mb-4 text-gray-900 dark:text-white">Sobre Mim</h1>
+        <p className="text-gray-700 dark:text-gray-300 text-lg leading-relaxed">
           Meu nome é Bruno e possuo 25 anos atualmente. Sou um rapaz apaixonado
           por tecnologia que está buscando aprimorar seus conhecimentos cada vez
           mais. Atualmente estou estudando por conta e estruturando alguns

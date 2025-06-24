@@ -5,7 +5,7 @@
 @tailwind utilities;
 
 
-/* Global tweaks */
+/* Global Styles */
 
 body {
     @apply bg-gray-50 text-gray-800 font-sans leading-relaxed;
@@ -13,15 +13,44 @@ body {
 
 
 h1, h2, h3, h4, h5, h6 {
-    @apply font-bold text-gray-500;
+    @apply font-bold text-gray-700;
 }
 
-.button{
-    @apply bg-indigo-600 text-white font-semibold py-2 px-4 rounded-lg hover:bg-indigo-700 transition duration-300;
-}
+/*Components Layers*/
 
-/* Container padrão para selections */
+@layer components {
+    .btn{ 
+        @apply  bg-indigo-600 
+                text-white 
+                font-semibold py-2 px-4 rounded-lg
+                transition duration-300
+                hover:bg-indigo-700;
+    }
+
 
 .container {
-    @apply mx-auto px-6 py-12;
+    @apply mx-auto px-4 sm:px-6 lg:px-8 py-12;
+}
+
+.card {
+   @apply bg-white dark:bg-gray-800 shadow-md rounded-xl p-6 transition duration-300;
+}
+
+.section-title {
+    @apply text-3xl font-bold mb-6 text-gray-800 dark:text-gray-100 tracking-tight;
+}
+
+.link {
+        @apply text-indigo-600 hover:underline hover:text-indigo-800 transition duration-200;
+    }
+}
+
+/* Dark Mode Customizations */
+
+.dark body {
+    @apply bg-gray-900 text-gray-100;
+}
+
+.dark h1, .dark h2, .dark h3 {
+    @apply text-gray-200;
 }

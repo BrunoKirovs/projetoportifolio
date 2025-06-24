@@ -1,10 +1,20 @@
 --------------------------------------------------------------------------------------------------------
+                                    Vitrine de Projetos Pessoais
 
--> Esse é um projeto pessoal meu, onde estou criando uma página pessoal para apresentar meus projetos
-funcionando.
 
-Em conjunto demonstrar um pouco de quem sou eu e o que ando estudando atualmente.
+Este projeto é uma vitrine de projetos pessoais, desenvolvida em React e TypeScript, com o objetivo de
+centralizar e apresentar de forma rápida e funcional meus futuros trabalhos como desenvolvedor.
 
-Este projeto está sendo desenvolvido em React com estrutura em Typescript e Tailwind Css.
+A proposta é oferecer uma experiência direta, em vez de depender de links espalhados no GitHub, cada
+projeto poderá ser acessado, visualizado e interagido diretamente a partir deste portifólio.
 
--> Fora isso é um bela forma de criar um portifolio com a minha cara.
+--------------------------------------------------------------------------------------------------------
+
+Tecnologias Utilizadas
+
+* React + TypeScript -> Interface moderna, modular e segura
+* Tailwind Css -> Estilização rápida, responsiva e com suporte a dark mode
+* Framer Motion -> Animações suaves e acessiveis
+* React Router DOM -> Navegação SPA entre seções
+* React-i18next -> Suporte a mutiplos idiomas (PT/EN) -> "Ainda em fase de implementação"
+* ESLint + TypeScript Config -> Padronização e qualidade de código

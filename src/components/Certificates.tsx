@@ -1,10 +1,10 @@
 import { motion } from "framer-motion";
 
 type Certificate = {
-    title: string;
-    issuer: string;
-    year: string;
-    link: string;
+  title: string;
+  issuer: string;
+  year: string;
+  link: string;
 };
 
 const certificates: Certificate[] = [
@@ -20,25 +20,25 @@ const certificates: Certificate[] = [
     year: "2025",
     link: "https://cursos.alura.com.br/degree/certificate/c74e1335-a75d-48bf-8d8b-d1cac4a91e9f?lang",
   },
- {
+  {
     title: "Tailwind CSS: estilizando página com classes utilitárias",
     issuer: "Alura",
     year: "2025",
     link: "https://cursos.alura.com.br/certificate/9b4dfcb8-a6d9-47eb-9193-221c20bf7cbf?lang",
   },
-   {
+  {
     title: "MySQL",
     issuer: "Alura",
     year: "2025",
     link: "https://cursos.alura.com.br/certificate/7a8d4af2-c2c1-4c11-b3c3-03a28a2115fc?lang",
   },
-   {
+  {
     title: "Quality Assurance: plano de testes e gestão de bugs",
     issuer: "Alura",
     year: "2025",
     link: "https://cursos.alura.com.br/certificate/93c27115-210e-4079-a25f-ea7c64819ca9?lang",
   },
-   {
+  {
     title: "Microsserviços: Padrões de Projeto",
     issuer: "Alura",
     year: "2025",

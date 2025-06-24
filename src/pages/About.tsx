@@ -38,7 +38,7 @@ export function About() {
               </p>
             </div>
           </motion.div>
-          
+
           <div className="flex flex-col gap-4">
             <p className="text-gray-700 dark:text-gray-300 text-lg">
               Veja o que estou estudando no momento:
@@ -124,7 +124,6 @@ export function About() {
                 alt="JavaScript"
               />
             </div>
-
           </div>
 
           <Certificates />
@@ -134,7 +133,6 @@ export function About() {
         <div className="flex-1 max-w-2x1 w-full">
           <ExperienceTimeline />
         </div>
-
       </div>
     </section>
   );

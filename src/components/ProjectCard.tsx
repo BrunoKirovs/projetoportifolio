@@ -21,11 +21,11 @@ export function ProjectCard({ project }: ProjectCardProps) {
         className="rounded-md mb-4 object-cover h-48 w-full"
       />
       <div className="flex flex-col flex-grow">
-      <h2 className="text-2xl font-bold text-gray-800 dark:text-white mb-2">
-        {project.title}
+        <h2 className="text-2xl font-bold text-gray-800 dark:text-white mb-2">
+          {project.title}
         </h2>
-      <p className="text-gray-600 dark:text-gray-300 mb-4">
-        {project.description}
+        <p className="text-gray-600 dark:text-gray-300 mb-4">
+          {project.description}
         </p>
       </div>
       <a

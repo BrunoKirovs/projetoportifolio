@@ -1,9 +1,7 @@
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 
-
 export function Home() {
-
   return (
     <section className="w-full bg-white dark:bg-gray-900 px-4 py-20 md:px-8">
       {/* Hero */}
@@ -22,7 +20,8 @@ export function Home() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.3 }}
         >
-          Desenvolvedor apaixonado para obter mais conhecimento em interfaces modernas.
+          Desenvolvedor apaixonado para obter mais conhecimento em interfaces
+          modernas.
         </motion.p>
 
         {/* CTAs */}
@@ -46,7 +45,6 @@ export function Home() {
           </a>
         </motion.div>
       </div>
- 
     </section>
   );
 }

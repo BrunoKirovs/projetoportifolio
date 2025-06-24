@@ -64,7 +64,7 @@ export function Certificates() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: idx * 0.2 }}
           >
-            <h4 className="text-lg font-bold text-gray-900 dark:text-white">
+            <h4 className="text-lg font-bold text-gray-800 dark:text-white">
               {cert.title}
             </h4>
             <p className="text-gray-700 dark:text-gray-300 mt-1">

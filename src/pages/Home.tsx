@@ -20,8 +20,7 @@ export function Home() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.3 }}
         >
-          Desenvolvedor apaixonado em aprender para obter mais conhecimento em interfaces
-          modernas.
+          Sou movido por desafios que exigem resiliência, aprendizado contínuo e trabalho em equipe, buscando sempre criar soluções robustas, escaláveis e seguras. Meu objetivo é crescer como desenvolvedor, aplicando minha experiência tanto em tecnologias modernas de front-end e back-end, quanto no mercado financeiro.
         </motion.p>
 
         {/* CTAs */}

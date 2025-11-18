@@ -32,7 +32,7 @@ export function About() {
               </h3>
 
               <p className="text-gray-700 dark:text-gray-300 text-lg leading-relaxed mb-8">
-                Tenho 25 anos e sou apaixonado por tecnologia. Estou em
+                Tenho 26 anos e sou apaixonado por tecnologia. Estou em
                 constante evolução como desenvolvedor. Este portfólio é uma
                 vitrine dos meus projetos, estudos e progressos.
               </p>
@@ -45,16 +45,6 @@ export function About() {
             </p>
 
             <div className="flex flex-wrap justify-center gap-4">
-              <img
-                src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"
-                alt="React"
-              />
-
-              <img
-                src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white"
-                alt="TypeScript"
-              />
-
               <img
                 src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white"
                 alt="Java"
@@ -75,18 +65,6 @@ export function About() {
             {/* Seção de ícones */}
             <div className="flex flex-wrap justify-center gap-4">
               <img
-                src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"
-                alt="React"
-              />
-              <img
-                src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white"
-                alt="TypeScript"
-              />
-              <img
-                src="https://img.shields.io/badge/TailwindCSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white"
-                alt="TailwindCSS"
-              />
-              <img
                 src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"
                 alt="Git"
               />
@@ -95,33 +73,72 @@ export function About() {
                 alt="GitHub"
               />
               <img
+                src="https://img.shields.io/badge/DBeaver-372923?style=for-the-badge&logo=dbeaver&logoColor=white"
+                alt="DBeaver"
+              />
+              <img
+                src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=openjdk&logoColor=white"
+                alt="Java"
+              />
+              <img
+                src="https://img.shields.io/badge/C%23-512BD4?style=for-the-badge&logo=csharp&logoColor=white"
+                alt="C#"
+              />
+              <img
+                src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"
+                alt="JavaScript"
+              />
+              <img
+                src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white"
+                alt="TypeScript"
+              />
+              <img
                 src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"
                 alt="Python"
               />
-
               <img
-                src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white"
-                alt="Java"
+                src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white"
+                alt="Go"
               />
-
               <img
-                src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white"
-                alt="C#"
+                src="https://img.shields.io/badge/SQL-336791?style=for-the-badge&logo=database&logoColor=white"
+                alt="SQL"
               />
-
+              <img
+                src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white"
+                alt="MySQL"
+              />
+              <img
+                src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white"
+                alt="PostgreSQL"
+              />
+              <img
+                src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black"
+                alt="React"
+              />
+              <img
+                src="https://img.shields.io/badge/TailwindCSS-38B2AC?style=for-the-badge&logo=tailwindcss&logoColor=white"
+                alt="TailwindCSS"
+              />
+              <img
+                src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white"
+                alt="Node.js"
+              />
               <img
                 src="https://img.shields.io/badge/Cypress-17202C?style=for-the-badge&logo=cypress&logoColor=white"
                 alt="Cypress"
               />
-
               <img
-                src="https://img.shields.io/badge/SQL-003B57?style=for-the-badge&logo=sqlite&logoColor=white"
-                alt="SQL"
+                src="https://img.shields.io/badge/AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white"
+                alt="AWS"
               />
-
               <img
-                src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"
-                alt="JavaScript"
+                src="https://img.shields.io/badge/RabbitMQ-FF6600?style=for-the-badge&logo=rabbitmq&logoColor=white"
+                alt="RabbitMQ"
+              />
+              <img
+                src="https://img.shields.io/badge/Rancher-0075A8?style=for-the-badge&logo=rancher&logoColor=white"
+                alt="Rancher"
               />
             </div>
           </div>

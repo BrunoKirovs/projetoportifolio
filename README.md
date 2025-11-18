@@ -16,5 +16,4 @@ Tecnologias Utilizadas
 * Tailwind Css -> Estilização rápida, responsiva e com suporte a dark mode
 * Framer Motion -> Animações suaves e acessiveis
 * React Router DOM -> Navegação SPA entre seções
-* React-i18next -> Suporte a mutiplos idiomas (PT/EN) -> "Ainda em fase de implementação"
 * ESLint + TypeScript Config -> Padronização e qualidade de código

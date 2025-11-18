@@ -44,6 +44,24 @@ const certificates: Certificate[] = [
     year: "2025",
     link: "https://cursos.alura.com.br/certificate/ac75339f-7f77-4d7c-adfd-79f5da37acc6?lang",
   },
+  {
+    title: "Scrum:agilidade em seu projeto",
+    issuer: "Alura",
+    year: "2025",
+    link: "https://cursos.alura.com.br/certificate/da1b12e7-d17d-46ca-8b47-abc73bed1391?lang=pt_BR",
+  },
+  {
+    title: "Gestão do Conhecimento: otimize a busca e a organização de informações com IA",
+    issuer: "Alura",
+    year: "2025",
+    link: "https://cursos.alura.com.br/certificate/135cb1a7-6f9a-432c-b328-e159b6c17539?lang",
+  },
+  {
+    title: "Go: Introdução a linguagem do Google",
+    issuer: "Alura",
+    year: "2025",
+    link: "https://cursos.alura.com.br/certificate/e6862ebd-900a-4f6f-a10f-f78036ea683d?lang",
+  },
 ];
 
 export function Certificates() {
